@@ -126,35 +126,35 @@ export function QuickLinksWindow(options = {}) {
     const html = `
         <div class="quick-links-window">
             <button class="toggle-btn">◀</button>
-            <h2>作品連結</h2>
+            <h2>Quick Links</h2>
             <div class="quick-links">
                 <div class="link-grid">
                     <div class="link-section">
-                            <li><a href="../index.html">返回履歷首頁</a></li>
+                            <li><a href="../index.html">Home</a></li>
                     </div>
                     <div class="link-section">
-                        <h4>實習經歷</h4>
+                        <h4>Internship</h4>
                         <ul>
-                            <li>${createLink('reliability.html', '可靠度試驗、FEA (2023)')}</li>
+                            <li>${createLink('reliability.html', 'Reliability Test, FEA (2023)')}</li>
                         </ul>
                     </div>
                     <div class="link-section">
-                        <h4>學術研究</h4>
+                        <h4>Research</h4>
                         <ul>
-                            <li>${createLink('university_project.html', '大學專題 - 振動抑制(2023)')}</li>
+                            <li>${createLink('university_project.html', 'Vibration Control(2023)')}</li>
                         </ul>
                     </div>
                     <div class="link-section">
-                        <h4>完整專案設計</h4>
+                        <h4>Project</h4>
                         <ul>
-                            <li>${createLink('robot design.html', '機器人設計(2023)')}</li>
-                            <li>${createLink('mechanical_design.html', '機械設計(2022)')}</li>
+                            <li>${createLink('robot design.html', 'Robot Design(2023)')}</li>
+                            <li>${createLink('mechanical_design.html', 'Mechanicla Design(2022)')}</li>
                         </ul>
                     </div>
                     <div class="link-section">
-                        <h4>基礎知識</h4>
+                        <h4>Fundamental Knowledge</h4>
                         <ul>
-                            <li>${createLink('numerical_analysis.html', '訊號處理、數值分析(2023)')}</li>    
+                            <li>${createLink('numerical_analysis.html', 'Numerical Analysis(2023)')}</li>    
                         </ul>
                     </div>
                 </div>
