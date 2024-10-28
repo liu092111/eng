@@ -148,7 +148,7 @@ export function QuickLinksWindow(options = {}) {
                         <h4>Project</h4>
                         <ul>
                             <li>${createLink('robot design.html', 'Robot Design(2023)')}</li>
-                            <li>${createLink('mechanical_design.html', 'Mechanicla Design(2022)')}</li>
+                            <li>${createLink('mechanical_design.html', 'Mechanical Design(2022)')}</li>
                         </ul>
                     </div>
                     <div class="link-section">
