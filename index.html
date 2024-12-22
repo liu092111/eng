@@ -6,20 +6,14 @@
     <link rel="icon" href="https://github.com/liu092111/liu092111.github.io/blob/master/icon/portfolio.png?raw=true" type="image/x-icon">
     <title>Hua's Personal Homepage</title>
     <style>
-        /* 導入Google字體 
+        /* 導入Google字體 */
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
-        */
-
-        body {
-            font-family: "Times New Roman", serif;
-        }
-
         
-        /* 全局樣式設置 */
+
         body, html {
             margin: 0;
             padding: 0;
-            font-family: 'Noto Sans TC', sans-serif;
+            font-family: 'Inter', 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
             background: linear-gradient(135deg, #f8f5f0 25%, #e0d8c3 100%);
             background-attachment: fixed;
             min-height: 100vh;
@@ -169,11 +163,20 @@
             font-size: 16px;
             color: #4b5d56;
             margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 8px; /* 圖示和文字的間距 */
+        }
+
+        .title-icon {
+            width: 24px;  /* 圖示寬度 */
+            height: 30px; /* 圖示高度 */
+            object-fit: contain;
         }
 
         .experience-item p {
             color: #000;
-            margin: 2px 0;
+            margin: 5px 0;
         }
 
         .experience-item p.job-title {
@@ -248,9 +251,9 @@
                 <h1>&nbsp;Hua(Flora) Liu</h1>
                 <!-- 聯繫信息 -->
                 <div class="contact-info">
-                    <p>📞 (+886)908736900</p>
-                    <p>✉️ liu092211@gmail.com</p>
-                    <p>🏠 Taiwan, Taoyuan</p>
+                    <p>📞 <a href="tel:+886908736900">(+886)908736900</a></p>
+                    <p>✉️ <a href="mailto:liu092211@gmail.com">liu092211@gmail.com</a></p>
+                    <p>🏠 <a href="https://www.google.com/maps/place/Taoyuan,+Taiwan" target="_blank">Taiwan, Taoyuan</a></p>
                     <p>📚 <a href="https://liu092111.github.io" target="_blank">中文網頁</a></p>
                     <p>🌐 <a href="https://www.linkedin.com/in/hua-liu-b8a905236/" target="_blank">LinkedIn</a></p>
                 </div>
@@ -299,7 +302,10 @@
             <section class="section">
                 <h2>Work Experience (~1year)</h2>
                 <div class="experience-item">
-                    <h3>Delta Electronic Inc. Research Center</h3>
+                    <h3>
+                        <img src="https://github.com/liu092111/liu092111.github.io/blob/master/icon/Delta.jpg?raw=true" alt="Delta Electronics Inc." class="title-icon">
+                        Delta Electronic Inc. Research Center
+                    </h3>
                     <p class="job-title">Lab for Digital Twin-Based of Optimization, R&D Engineer Intern</p>
                     <p class="time">2024 Jul - Aug</p>
                     <ul>
@@ -310,7 +316,10 @@
                     </ul>
                 </div>
                 <div class="experience-item">
-                    <h3>SGS Taiwan Inspection Technology Co., Ltd.</h3>
+                    <h3>
+                        <img src="https://github.com/liu092111/liu092111.github.io/blob/master/icon/SGS.png?raw=true" alt="SGS" class="title-icon">
+                        SGS Taiwan Inspection Technology Co., Ltd.
+                    </h3>
                     <p class="job-title">Reliability Laboratory Intern</p>
                     <p class="time">2023 Sep - 2024 Apr</p>
                     <ul>
@@ -321,7 +330,9 @@
                     </ul>
                 </div>
                 <div class="experience-item">
-                    <h3>Industrial Safety and Health Association of the R.O.C.</h3>
+                    <h3>
+                        <img src="https://github.com/liu092111/liu092111.github.io/blob/master/icon/isha.jpg?raw=true" alt="ISHA" class="title-icon">
+                        Industrial Safety and Health Association of the R.O.C.</h3>
                     <p class="job-title">Summer Intern</p>
                     <p class="time">2022 Jul - Aug, 2020 Jul - Aug</p>
                     <ul>
