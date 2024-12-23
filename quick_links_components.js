@@ -142,20 +142,20 @@ export function QuickLinksWindow(options = {}) {
                     <div class="link-section">
                         <h4>Research</h4>
                         <ul>
-                            <li>${createLink('university_project.html', 'Vibration Control(2023)')}</li>
+                            <li>${createLink('university_project.html', 'Vibration Control (2023)')}</li>
                         </ul>
                     </div>
                     <div class="link-section">
                         <h4>Project</h4>
                         <ul>
-                            <li>${createLink('robot design.html', 'Robot Design(2023)')}</li>
-                            <li>${createLink('mechanical_design.html', 'Mechanical Design(2022)')}</li>
+                            <li>${createLink('robot design.html', 'Robot Design (2023)')}</li>
+                            <li>${createLink('mechanical_design.html', 'Mechanical Design (2022)')}</li>
                         </ul>
                     </div>
                     <div class="link-section">
                         <h4>Fundamental Knowledge</h4>
                         <ul>
-                            <li>${createLink('numerical_analysis.html', 'Numerical Analysis(2023)')}</li>    
+                            <li>${createLink('numerical_analysis.html', 'Numerical Analysis (2023)')}</li>    
                         </ul>
                     </div>
                 </div>
